@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "code",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests.py::test_code",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "late",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests.py::test_late",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
